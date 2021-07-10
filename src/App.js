@@ -1,10 +1,13 @@
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
+import StudentLogin from "../src/Components/Form/StudentLogin"
+import StudentSignUp from './Components/Form/StudentSignUp';
+import ForgetPassword from './Components/Form/ForgetPassword';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <StudentSignUp/>
     </div>
   );
 }
